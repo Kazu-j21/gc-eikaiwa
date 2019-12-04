@@ -1,0 +1,166 @@
+@import url(sanitize.css);
+@import url('https://fonts.googleapis.com/css?family=Sriracha&display=swap');
+
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+   background:#151515 url('../test_img/bg.png') no-repeat 
+   fixed left bottom;
+   background-size: cover;
+   color: #fff;
+   text-align: center;
+   font-size: 1.4rem;
+   font-family: 'Sriracha', cursive;
+}
+*,*::before, *::after{
+    box-sizing: border-box;
+}
+
+
+.heading{
+    position: relative;
+    display: inline-block;
+    margin: 30px 0 15px;
+    padding-bottom: 15px;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+.container{
+    padding: 170px 30px 80px;
+}
+
+header h1{
+    margin: 50px 0 40px;
+    font-size: 40px;
+    font-family: 'Sriracha', cursive;
+}
+
+header p{
+    margin-bottom: 50px;
+    color: #888;
+    font-size: 1.6rem;
+}
+
+.about{
+    padding: 30px 0;
+    background-color: #fff;
+    color: #333;
+}
+
+.about-text{
+    margin: 30px 0;
+    line-height: 2.5;
+}
+
+.pictures{
+    padding: 80px 0;
+}
+
+img.photo {
+    border: solid 8px white;
+    box-shadow: 5px 5px 10px gray;
+}
+
+img.button {
+    width: 50px;
+    height: 50px;
+    transition: 0.3s;
+}
+
+img.button:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+
+video.edit{
+    width: 500px;
+    height: 400px;
+    border: solid 8px white;
+    box-shadow: 5px 5px 10px gray;         
+}
+
+.members{
+    padding: 80px 0;
+}
+
+.members-wrapper{
+    display: table;
+    width: 80%;
+    margin: 50px auto 0;
+    table-layout: fixed;
+}
+
+.member-box{
+    display: table-cell;
+}
+
+.member-icon{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 30px;
+    border: 4px solid;
+    border-radius: 50%;
+    font-size: 8rem;
+    line-height: 142px;
+}
+
+.member-title{
+    margin: 0 20px 20px;
+    font-size: 2rem;
+}
+
+.member-text{
+    margin: 0 20px;
+}
+
+
+.contact{
+    padding: 80px 0 150px;
+    color: #fff;
+}
+
+.contact-form{
+    width: 50%;
+    margin: 50px auto 0;
+}
+
+.contact-form input[type=text],
+.contact-form textarea{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 15px;
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0.05);
+    color: #fff;  
+    font-family: Raleway, "Hiragino Kaku Gothic ProN", Meiryo,
+    sans-serif;
+}
+
+.contact-form textarea{
+    padding-bottom: 100px;
+}
+
+
+button{
+    display: block;
+    width: 200px;
+    margin: 40px auto 0;
+    padding: 15px;
+    border: 1px solid  rgba(255, 255, 255, 0.4);
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+}
+
+.footer{
+    padding: 12px 0;
+    font-size: 1.3rem;
+}
